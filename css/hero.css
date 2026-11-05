@@ -1,0 +1,25 @@
+.hero {
+  background: #2e2f42;
+}
+.hero-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.btn {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+  color: #fff;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #404bbf;
+}
+button {
+  cursor: pointer;
+}

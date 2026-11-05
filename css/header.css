@@ -1,0 +1,33 @@
+.header {
+}
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.logo-style {
+  color: #4d5ae5;
+}
+
+.nav-menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+.contacts {
+  font-style: normal;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
