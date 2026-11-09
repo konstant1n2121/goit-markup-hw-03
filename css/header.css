@@ -1,6 +1,20 @@
 .header {
+  padding: 24px 0;
+  border-bottom: 1px solid #e7e9fc;
 }
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.ul-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .header-logo {
+  display: flex;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.33333;
@@ -13,6 +27,8 @@
 }
 
 .nav-menu {
+  margin-left: auto;
+  margin-right: 340px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -25,6 +41,9 @@
   color: #404bbf;
 }
 .contacts {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
   font-style: normal;
 }
 .contacts-link:hover,

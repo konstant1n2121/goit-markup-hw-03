@@ -1,7 +1,11 @@
 .hero {
+  padding: 188px 0;
   background: #2e2f42;
 }
 .hero-text {
+  max-width: 496px;
+  padding-bottom: 48px;
+  margin: auto;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
@@ -9,6 +13,13 @@
   text-align: center;
   color: #fff;
 }
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .btn {
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -22,4 +33,12 @@
 }
 button {
   cursor: pointer;
+}
+
+.hero .btn {
+  display: block;
+  padding: 16px 32px;
+  height: 56px;
+  border-radius: 4px;
+  white-space: nowrap;
 }
