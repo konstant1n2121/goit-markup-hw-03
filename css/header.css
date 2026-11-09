@@ -1,5 +1,4 @@
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 .header .container {
@@ -15,6 +14,7 @@
 
 .header-logo {
   display: flex;
+  margin-right: 76px;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.33333;
@@ -27,8 +27,8 @@
 }
 
 .nav-menu {
-  margin-left: auto;
-  margin-right: 340px;
+  /* margin-left: 76px; */
+  margin-right: auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -43,10 +43,15 @@
 .contacts {
   display: flex;
   gap: 40px;
-  justify-content: flex-end;
   font-style: normal;
 }
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
+}
+
+.nav-link,
+.contacts-link {
+  display: block;
+  padding: 24px 0;
 }
